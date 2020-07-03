@@ -1,12 +1,29 @@
 {
   "name": "encased",
   "version": "0.1.0",
-  "private": true,
+  "description": "Wrap your content in the all new Safari Browser from Big Sur",
+  "keywords": [
+    "browser",
+    "wrap",
+    "apple",
+    "big-sur",
+    "safari",
+    "browser-wrapper",
+    "wrapper",
+    "window"
+  ],
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dowu/encased.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "lemonpie": "^0.1.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
